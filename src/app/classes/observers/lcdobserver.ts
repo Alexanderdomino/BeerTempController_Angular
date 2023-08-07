@@ -25,7 +25,6 @@ export class LCDObserver implements IObserver {
   }
 
   //Method to write to the Display
-
   write(col: number, row: number, message: string): Promise<void> {
     return new Promise((resolve, reject) => {
       this.lcd.setCursor(col, row);
