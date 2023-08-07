@@ -1,4 +1,4 @@
-import {IObserver} from "../interfaces/iobserver";
+import {IObserver} from "../../interfaces/iobserver";
 
 export class LCDObserver implements IObserver {
 

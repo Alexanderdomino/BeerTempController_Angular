@@ -1,5 +1,5 @@
-import {ISubject} from "../interfaces/isubject";
-import {IObserver} from "../interfaces/iobserver";
+import {ISubject} from "../../interfaces/isubject";
+import {IObserver} from "../../interfaces/iobserver";
 
 export class TempSensor implements ISubject {
 
